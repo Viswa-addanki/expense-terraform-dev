@@ -5,7 +5,7 @@
   - expense-dev-frontend
   - expense-dev-bastion
   - expense-dev-ansible
-    db:
+  db:
   - name: db_backend
     desc: db accepting connections from backend
     source: backend
@@ -13,8 +13,8 @@
   - name: db_bastion
     desc: db accepting connections from bastion
     source: bastion
-    port: 3306  
-    backend:
+    port: 3306
+  backend:
   - name: backend_frontend
     desc: backend accepting connections from frontend
     source: frontend
@@ -49,4 +49,4 @@
   - name: ansible_public
     desc: ansible accepting connections from public
     source: public #idealy your home IP address/32
-    port: 22  
+    port: 22

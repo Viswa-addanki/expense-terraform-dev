@@ -13,7 +13,3 @@ variable "common_tags" {
     Terraform = "true"
   }
 }
-
-variable "db_sg_description" {
-  default = "SG for DB MySQL Instances"
-}

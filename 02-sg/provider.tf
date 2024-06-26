@@ -6,7 +6,7 @@ required_providers {
     }
   }
    backend "s3" {
-    bucket = "viswaws78s-remote"
+    bucket = "gopiaws-remote"
     key    = "expense-dev-sg"
     region = "us-east-1"
     dynamodb_table = "viswaws-locking"

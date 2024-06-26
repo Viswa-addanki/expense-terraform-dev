@@ -14,6 +14,7 @@ variable "common_tags" {
   }
 }
 
-variable "db_sg_description" {
-  default = "SG for DB MySQL Instances"
+variable "zone_name" {
+  default = "viswaws.online"
+  
 }
